@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="head" class="mx-auto d-block text-center">
+        <span onclick="openNav()" id="icon" class="float-left"> &#9776;</span>
+        <h1>Mathematics Made Easy</h1>
+        <h2>Complex Calculator</h2>
+    </div>
+    <div class="side">
+        
+        <ul class="list-group list-group-flush master-list" >
+             <li class="list-group-item"><span id="times" onclick="closeNav()">&times;</span></li> 
+             <a href="http//:hameedcgpacalculator.netlify.app" style="color:white"><li class="list-group-item T-gpcalc" id="T-gpcalc">CGPA CALCULATOR</li> </a> 
+            <li class="list-group-item T-trig" id="T-trig">Trgonometry</li>
+            <li class="list-group-item T-2by2" id="T-2by2">Determinant of two by two matrix</li>
+            <li class="list-group-item T-3by3" id="T-3by3" >Determinant of three by three matrix</li>
+            <li class="list-group-item T-facto" id="T-facto" >Factorial calculator</li>
+            <li class="list-group-item T-permu" id="T-permu">Permutation</li>
+            <li class="list-group-item T-combi" id="T-combi">combination</li>
+            <li class="list-group-item T-quad" id="T-quad">quadratic equation</li>
+            <li class="list-group-item T-simul" id="T-simul">Simultaneous equation</li>
+            <li class="list-group-item T-lat" id="T-lat">Distance along the line of Latitude and Longtitude</li>
+            <li class="list-group-item T-log" id="T-log">Logarithm</li>
+            <li class="list-group-item T-Nlog" id="T-Nlog">Natural Logarithm</li>
+            <li class="list-group-item T-ap" id="T-ap">Arithmetic Progression</li>
+            <li class="list-group-item T-gp" id="T-gp">Geometric Progression</li>
+            <li class="list-group-item T-geom" id="T-geom">coodinate Geometry</li>
+            <li class="list-group-item T-mod" id="T-mod">Modular arithmetic</li>
+            <li class="list-group-item T-mean" id="T-mean">Mean, median and mode</li>
+            <li class="list-group-item T-dev" id="T-dev">Mean deviation, standardDeviation & Variance</li>
+            <li class="list-group-item T-about">about Developer</li>
+        </ul>
+    </div>
+
+    <div class="" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+           
+           <h3 class="heading">Click the top menu icon </h3> 
+           
+           
+          <!-- <div class="modal-header mx-auto d-block text-center">
+              <h3 class="about">About Developer</h3>
+          </div>
+          <div class="modal-body mx-auto d-block text-center" style="display: inline;">
+            <div class="me">ME</div>
+             <img src="meda.jpg" alt="">
+             <div class="me"><span>MYself</span> <span id="and" class="me">and</span> <span class="me">I</span></div>
+            
+            </div>
+        
+        <div class="modal-footer mx-auto d-block text-center"> 
+            <h6 style="color: rgb(129, 10, 10); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> A software developer <br> @ <br> meda360 software</h6>
+        </div>     -->
+       
+        
+
+
+
+        
+
+
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        function openNav (){
+            document.querySelector('.side').style.width = "200px"
+            // document.body.addEventListener('click', closeNav)
+        }
+        function closeNav(){
+            document.querySelector('.side').style.width = "0px"
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,286 @@
+body{
+    background-color: #cecece;
+}
+#head{
+    
+    color: rgb(126, 10, 10);
+}
+.side{
+   width: 400px; 
+   border: 5px solid black;
+   margin-left: 5px;
+   height: fit-content;
+}
+ul{
+   color: white;
+   line-height: 45px;
+   font-size: 20px;
+   cursor: pointer;
+}
+#myModal{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    width: 400px;
+    
+
+}
+.btn{
+    margin-right: 30px;
+    width: fit-content;
+}
+.modal-body{
+    line-height:50px;
+}
+input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+    border-bottom: 2px solid blueviolet;
+}
+.answer,
+.perm-answer,
+.comb-answer,
+.matrix-answer,
+.trig-answer,
+.log-answer,
+.geom-answer
+
+{
+    height: 70px;
+    width: 60px;
+    font-size: 25px;
+    color: lightgreen;
+}
+button{
+    width: fit-content;
+}
+.inp{
+    width: 60px;
+    margin-right: 50px;
+}
+
+.inputs{
+    line-height: 80px;
+}
+.spn{
+    margin-right: 50px;
+}
+
+.quad-answer,.trig-answe{
+    line-height: 30px;
+}
+#icon, #times{
+    display: none;
+}
+.list-group-item{
+    background-color:rgb(126, 10, 10);
+}
+
+.closemodal{
+    font-size: 44px;
+    color: red;
+    display: block;
+    cursor: pointer;
+    
+}
+.selectTrig{
+    background-color: rgb(126, 10, 10);
+    color: white;
+    border-radius: 12px;
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+.lat{
+    width: 30px;
+    margin-left: 20px;
+}
+li{
+    line-height: 20px;
+}
+li:hover{
+    background-color: pink;
+}
+
+.mult{
+    
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    
+}
+.mod-answer,.mean-answer, .dev-answer,.lat-answer{
+    font-size: 17px;
+    color: lightgreen;
+}
+.list{
+    width:inherit;
+    background-color: rgb(126, 10, 10);
+    color: goldenrod;
+    text-overflow: clip;
+    
+}
+.modal-content{
+    overflow: scroll;
+}
+img{
+    width: 200px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px solid red;
+    border-style: dotted;
+}
+.me{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: red;
+}
+.about{
+    color: rgb(126, 10, 10);
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================================MEDIA QUERY===========================================*/
+@media screen and (max-width:500px){
+.me{
+        font-size: 20px;
+        color: rgb(126, 10, 10);
+}
+h6{
+    font-size: 12px;
+}
+img{
+    width: 120px;
+    height: 120px;
+}
+#head{
+    background-color: brown;
+
+}
+h3{
+    font-size: 20px;
+}
+.lat{
+    width: 30px;
+    margin-left: 0px;
+}
+.side{
+    width: 0px;
+    border: 0px;
+    transition: 0.5s;
+    overflow: scroll;
+    margin-top: -10px;
+    margin-left: -5px;
+}
+
+#myModal{
+    width: 250px;
+    top: 20%;
+    left: 20%;
+    
+    
+}
+.inp{
+    width: 30px;
+    margin-right: 10px;
+}
+.inputs{
+    line-height: 40px;
+}
+h4{
+    font-size: 15px;
+}
+li{
+    font-size: 13px;
+}
+.answer,
+.perm-answer,
+.comb-answer,
+.matrix-answer,
+.quad-answer,.trig-answer,
+.log-answer,.gp-answer,
+.geom-answer{
+    height: 30px;
+}
+h1, h2{
+    font-size: 17px;
+    color: goldenrod;
+}
+#factorial{
+    width: 30px;
+}
+#enn, #pee, #ennn, #peee{
+    width: 17px;
+}
+#T-arith, #T-matrix{
+    line-height: 15px;
+}
+.spn{
+    margin-right: 5px;
+    font-size: 20px;
+}
+#icon{
+    font-size: 20px;
+    color: goldenrod;
+    font-weight: bolder;
+    margin-left: 10px;
+    display: block;
+}
+#times, .closed{
+    font-size: 44px;
+    color: red;
+    display: block;
+}
+#selectTrig{
+    padding-left: 0px;
+
+}
+.deg{
+    font-size: small;
+}
+/* .aplabel{
+    margin-left: 0px;
+} */
+
+
+}
+@media screen and (max-width:340px){
+    #myModal{
+        left: 10%;
+    }
+    
+}
+@media screen and (min-width:520px) and (max-width:800px){
+    #myModal{
+        top: 15%;
+    }
+    .side{
+        margin-top: 80px;
+        width: 300px;
+    }
+    #icon{
+        font-size: 20px;
+        color: goldenrod;
+        font-weight: bolder;
+        margin-left: 10px;
+        display: block;
+    }
+   
+}
