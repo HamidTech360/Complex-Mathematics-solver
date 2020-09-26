@@ -125,12 +125,16 @@ li:hover{
 .modal-content{
     overflow: scroll;
 }
-img{
+.img{
     width: 200px;
     height: 160px;
     border-radius: 50%;
     border: 2px solid red;
     border-style: dotted;
+    background-image: url(../meda.jpg);
+    background-size: cover;
+    background-position: center;
+    
 }
 .me{
     font-size: 30px;
@@ -166,7 +170,7 @@ img{
 h6{
     font-size: 12px;
 }
-img{
+.img{
     width: 120px;
     height: 120px;
 }
@@ -237,7 +241,7 @@ h1, h2{
     font-size: 20px;
 }
 #icon{
-    font-size: 20px;
+    font-size: 25px;
     color: goldenrod;
     font-weight: bolder;
     margin-left: 10px;
